@@ -27,4 +27,4 @@ Docker Compose, GitHub Actions, RAG and LLM evaluation (RAGAS, Braintrust).
 
 ## Elsewhere
 
-[LinkedIn](https://www.linkedin.com/in/chrismmurphy)
+[LinkedIn](https://www.linkedin.com/in/chrismmurphy) · [Substack](https://substack.com/@chrismurphybuilds), where I write weekly about building with AI
