@@ -14,6 +14,7 @@ keeps them reviewed and deployed safely.
 
 | Project | What it is |
 |---|---|
+| [**filings-rag-lab**](https://github.com/cmurph1624/filings-rag-lab) | Research assistant over SEC EDGAR filings, [live here](https://filings.stigmergylabs.net). Scoped vector retrieval in Postgres + pgvector with a reranker, plus a router that answers fact questions from XBRL data in SQL: 87.3% on the FinanceBench open subset (150 questions). Every run records tokens and cost, and a CI gate blocks PRs that hurt retrieval. Deployed on AWS with Terraform. |
 | [**claude-code-agent-ops**](https://github.com/cmurph1624/claude-code-agent-ops) | Guardrails for running many Claude Code sessions against real repos: an automated PR reviewer the authoring session has to answer, a registry-driven ops/deploy agent, and a hook that makes every deploy-shaped command ask a human first. |
 | [**Ganglion**](https://github.com/cmurph1624/Ganglion) | Browser-based terminal multiplexer for running Claude Code sessions in parallel. Per-tab status from Claude Code hooks (working / waiting / idle), persistent shells on a server, and every session captured into a searchable memory store. |
 | [**engram**](https://github.com/cmurph1624/engram) | MCP server for spaced recall: Claude runs the daily review and grades answers against rubrics, and the server handles the deterministic core (item registry, FSRS scheduling, Obsidian vault notes) with zero LLM calls. |
